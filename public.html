@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Poppins&display=swap" rel="stylesheet">
+    <title>Svayam Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(2, 2, 56);
+            color: white;
+            font-family: 'Oxygen', sans-serif;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            align-items: center;
+            justify-content: space-around;
+            display: flex;
+            height: 80px;
+            background-color: rgb(153, 153, 239);
+            color: rgb(2, 2, 56);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(2, 2, 56);
+        }
+
+        nav ul li a:hover {
+            color: rgb(137, 5, 80);
+            font-size: 1.03rem;
+        }
+
+        .left {
+            font-size: 1.7rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 105px 0;
+            align-items: center;
+            /* background-color: red; */
+        }
+
+        .firstSection>div {
+            width: 35%;
+        }
+
+        .leftSection {
+            /* background-color: rgb(113, 3, 3); */
+            font-size: 3rem;
+        }
+        .leftSection .buttons{
+            padding: 40px 0;
+        }
+        .leftSection .btn {
+            padding: 12px;
+            /* margin: 102px 0; */
+            background-color: rgb(3, 3, 98);
+            color: white;
+            border: 2px solid white;
+            cursor: pointer;
+            font-size: 15px;
+            border-radius: 6px;
+        }
+        .leftSection .btn a{
+           color: white;
+           text-decoration: none;
+        }
+        .tagline {
+            font-size: 1.2rem;
+            font-style: italic;
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 2rem;
+        }
+
+        .secondSection .box {
+            background: aliceblue;
+            width: 76vw;
+            height: 2px;
+            margin: 60px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: aliceblue;
+            margin: 0 140px;
+        }
+
+        .image-top {
+            width: 35px;
+            position: relative;
+            top: -30px;
+            left: -17px;
+        }
+
+        .vertical-title {
+            position: relative;
+            width: 150px;
+            top: 50px;
+            left: -55px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 15px;
+            /* left: -5px; */
+            width: 150px;
+            color: rgb(149, 149, 149);
+            font-size: 0.7rem;
+
+        }
+
+        footer {
+            background-color: rgba(59, 59, 129, 0.411);
+        }
+
+        .footer {
+            /* height: 250px; */
+            display: flex;
+            padding: 25px 125px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+        .footer ul a{
+            color: white;
+        }
+        .footer>div {
+            width: 225px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            /* background-color: aqua; */
+            color: gray;
+            padding: 15px 0;
+        }
+
+        .text {
+            color: gray;
+        }
+
+        main hr {
+            border: 0;
+            background: #aeaaff;
+            height: 1.5px;
+            margin: 40px 85px;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        #element {
+            color: blueviolet;
+            border-style: dotted;
+            border-color: rgb(153, 153, 239);
+            border-radius: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Svayam's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">ABOUT</a></li>
+                    <li><a href="/">ACHIEVEMENTS</a></li>
+                    <li><a href="/">PROJECTS</a></li>
+                    <li><a href="/">CONTACT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hey! I am <span class="purple">Svayam</span>
+                <div class="tagline">"I am perpetually poised for exploration and adaptation. "</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="C:\Users\Admin\Downloads\Svayam's Resume (1).pdf">Download Resume</a></button>
+                    <button class="btn"><a href="https://github.com/K-Svayam05">Github Profile</a></button>
+                </div>
+            </div>
+            <div class="rightSection"><img src="Web-Developer2.png" alt="developer"></div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text">Unleashing Academic Awesomeness, One Grade at a Time!</span>
+            <h1>Education</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="xaviers.jpeg" alt="Student">
+                    <div class="vertical-title">Primary Education <br>(2010-2020)
+                        <div class="vertical-desc">St. Xavier's School, Surat (99.8 percentile in 10th boards)</div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="riverdale.jpg" alt="Student">
+                    <div class="vertical-title">Higher Secondary Education <br>(2021-2022)
+                        <div class="vertical-desc">Riverdale Academy, Surat (96.5 percentile in 12th boards)</div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="iiitp.png" alt="Student">
+                    <div class="vertical-title">Undergraduate Degree <br>(2022-2026)
+                        <div class="vertical-desc">Indian Institute of Information Technology, Pune (B.Tech in CSE)
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="hobbies.jpeg" alt="Student">
+                    <div class="vertical-title">Other Hobbies
+                        <div class="vertical-desc">Dance, Basketball, Painting, Writing</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Svayam's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li><a href="https://www.linkedin.com/in/svayam-kapadia-78218b246/">Linkedin</a></li>
+                    <li><a href="https://www.instagram.com/svayam._.05/">Instagram</a></li>
+                </ul>
+            </div>
+            <!-- <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Linkedin</li>
+                    <li>Instagram</li>
+                </ul>
+
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li><a href="https://www.linkedin.com/in/svayam-kapadia-78218b246/">Linkedin</a></li>
+                    <li><a href="https://www.instagram.com/svayam._.05/">Instagram</a></li>
+                </ul>
+
+            </div> -->
+        </div>
+        <div class="footer-rights">
+            svayam's_portfolio.com | All rights reserved &#169
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web development', 'AI-ML', 'Web Designing', 'Social Media', 'Marketing', 'Event Management'],
+            typeSpeed: 80,
+        });
+    </script>
+
+</body>
+
+</html>
